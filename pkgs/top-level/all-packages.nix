@@ -4104,6 +4104,8 @@ with pkgs;
 
   soju = callPackage ../applications/networking/soju { };
 
+  space-station-14 = callPackage ../games/space-station-14 { };
+
   spacevim = callPackage ../applications/editors/spacevim { };
 
   ssmsh = callPackage ../tools/admin/ssmsh { };

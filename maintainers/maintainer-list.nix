@@ -11793,6 +11793,12 @@
     githubId = 6277322;
     name = "Wei Tang";
   };
+  soupstraw = {
+    email = "joosep.jaager@gmail.com";
+    github = "Soupstraw";
+    githubId = 6863341;
+    name = "Joosep Jääger";
+  };
   spacefrogg = {
     email = "spacefrogg-nixos@meterriblecrew.net";
     github = "spacefrogg";
