@@ -8,12 +8,6 @@
 , libSM
 , fontconfig
 , pkgs
-, dotnetConfigureHook
-, dotnetBuildHook
-, dotnetCheckHook
-, dotnetInstallHook
-, dotnetFixupHook
-, cacert
 }:
 let
   version = "0.13.0";
@@ -25,18 +19,6 @@ in
 buildDotnetModule rec {
   pname = "space-station-14";
   inherit version;
-
-  nativeBuildInputs = [
-    dotnetConfigureHook
-    dotnetBuildHook
-    dotnetCheckHook
-    dotnetInstallHook
-    dotnetFixupHook
-
-    dotnet-sdk
-    cacert
-    #makeWrapper
-  ];
 
   src = fetchFromGitHub {
     owner = "space-wizards";
