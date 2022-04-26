@@ -74,6 +74,7 @@
   (fetchNuGet { pname = "Serilog.Sinks.Console"; version = "3.1.1"; sha256 = "0j99as641y1k6havwwkhyr0n08vibiblmfjj6nz051mz8g3864fn"; })
   (fetchNuGet { pname = "Serilog.Sinks.File"; version = "4.1.0"; sha256 = "1ry7p9hf1zlnai1j5zjhjp4dqm2agsbpq6cvxgpf5l8m26x6mgca"; })
   (fetchNuGet { pname = "SharpZstd.Interop"; version = "1.5.2-beta1"; sha256 = "0yvk5g9jjmr7hg695zb0wid44dqjjngycjdng2xs6awqbx9kydcw"; })
+  (fetchNuGet { pname = "SharpZstd.Interop"; version = "1.5.2-beta2"; sha256 = "1145jlprsgll8ixwib0i8phc6jsv6nm4yki4wi1bkxx2bgf9yjay"; })
   (fetchNuGet { pname = "SkiaSharp"; version = "2.88.0-preview.178"; sha256 = "062g14s6b2bixanpwihj3asm3jwvfw15mhvzqv6901afrlgzx4nk"; })
   (fetchNuGet { pname = "SkiaSharp.NativeAssets.Linux"; version = "2.88.0-preview.178"; sha256 = "07kga1j51l3l302nvf537zg5clf6rflinjy0xd6i06cmhpkf3ksw"; })
   (fetchNuGet { pname = "SkiaSharp.NativeAssets.macOS"; version = "2.88.0-preview.178"; sha256 = "14p95nxccs6yq4rn2h9zbb60k0232k6349zdpy31jcfr6gc99cgi"; })

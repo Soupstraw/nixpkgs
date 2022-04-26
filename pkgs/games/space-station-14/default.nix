@@ -35,6 +35,7 @@ buildDotnetModule rec {
   dotnet-runtime = dotnetCorePackages.aspnetcore_6_0;
   installPath = "$out/opt/space-station-14";
   executables = [];
+  patches = [./loaderenv.patch];
 
   dotnetFlags = [
     "-p:FullRelease=True"
