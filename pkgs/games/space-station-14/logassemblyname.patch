@@ -1,0 +1,24 @@
+From eaa0f23f14489967c519343b2d03de9f93c1fbaa Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Joosep=20J=C3=A4=C3=A4ger?= <joosep.jaager@gmail.com>
+Date: Tue, 26 Apr 2022 21:27:34 +0300
+Subject: [PATCH] Log assemblyname
+
+---
+ SS14.Loader/Program.cs | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/SS14.Loader/Program.cs b/SS14.Loader/Program.cs
+index 2e7be69..9ee4251 100644
+--- a/SS14.Loader/Program.cs
++++ b/SS14.Loader/Program.cs
+@@ -104,6 +104,7 @@ internal class Program
+ 
+     private Assembly? LoadContextOnResolving(AssemblyLoadContext arg1, AssemblyName arg2)
+     {
++        Console.WriteLine("LoadContextOnResolving AssemblyName: " + arg2.ToString());
+         return TryOpenAssembly(arg2.Name!, out var assembly) ? assembly : null;
+     }
+ 
+-- 
+2.35.1
+

@@ -1,0 +1,25 @@
+From 37021b6cd0b07c0512d66baf38bb444ac329db04 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Joosep=20J=C3=A4=C3=A4ger?= <joosep.jaager@gmail.com>
+Date: Wed, 27 Apr 2022 13:50:22 +0300
+Subject: [PATCH] targetchange
+
+---
+ Robust.LoaderApi/Robust.LoaderApi.csproj | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Robust.LoaderApi/Robust.LoaderApi.csproj b/Robust.LoaderApi/Robust.LoaderApi.csproj
+index d9bcfcd..58ef59a 100644
+--- a/Robust.LoaderApi/Robust.LoaderApi.csproj
++++ b/Robust.LoaderApi/Robust.LoaderApi.csproj
+@@ -1,7 +1,7 @@
+ <Project Sdk="Microsoft.NET.Sdk">
+ 
+     <PropertyGroup>
+-        <TargetFramework>net5.0</TargetFramework>
++        <TargetFramework>net6.0</TargetFramework>
+         <Nullable>enable</Nullable>
+     </PropertyGroup>
+ 
+-- 
+2.35.1
+
