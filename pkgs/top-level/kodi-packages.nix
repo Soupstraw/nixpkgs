@@ -3,7 +3,7 @@
 with lib;
 
 let
-  inherit (libretro) genesis-plus-gx mgba snes9x;
+  inherit (libretro) genesis-plus-gx mgba snes9x mupen64plus;
 in
 
 let self = rec {
@@ -65,6 +65,8 @@ let self = rec {
   libretro-genplus = callPackage ../applications/video/kodi/addons/libretro-genplus { inherit genesis-plus-gx; };
 
   libretro-mgba = callPackage ../applications/video/kodi/addons/libretro-mgba { inherit mgba; };
+
+  libretro-mupen64plus-nx = callPackage ../applications/video/kodi/addons/libretro-mupen64plus-nx { inherit mupen64plus; };
 
   libretro-snes9x = callPackage ../applications/video/kodi/addons/libretro-snes9x { inherit snes9x; };
 
