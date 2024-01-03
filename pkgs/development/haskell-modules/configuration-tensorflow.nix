@@ -11,8 +11,8 @@ let
   tensorflow-haskell = pkgs.fetchFromGitHub {
     owner = "tensorflow";
     repo = "haskell";
-    rev = "555d90c43202d5a3021893013bfc8e2ffff58c97";
-    sha256 = "uOuIeD4o+pcjvluTqyVU3GJUQ4e1+p3FhINJ9b6oK+k=";
+    rev = "925c2e95151c0ea1592c26b51a5d98e4ca4a2fe7";
+    sha256 = "sha256-k5J7NAFRL4WlsbJ7dVdZps68e6brYxSTkFLn5fiUlFk=";
     fetchSubmodules = true;
   };
 
