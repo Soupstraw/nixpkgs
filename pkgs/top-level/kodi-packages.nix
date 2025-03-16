@@ -218,6 +218,8 @@ let
     trakt-module = callPackage ../applications/video/kodi/addons/trakt-module { };
 
     trakt = callPackage ../applications/video/kodi/addons/trakt { };
+
+    moonlight-qt = callPackage ../applications/video/kodi/addons/moonlight-qt { };
 }; in self // optionalAttrs config.allowAliases {
   # deprecated or renamed packages
 
