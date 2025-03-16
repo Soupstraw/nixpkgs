@@ -19,6 +19,10 @@
     pkgs.moonlight-qt
   ];
 
+  passthru = {
+    pythonPath = "resources/site-packages";
+  };
+
   meta = with lib; {
     homepage = "https://github.com/veldenb/plugin.program.moonlight-qt";
     description = "Kodi 19+ Moonlight launcher for the Raspberry Pi 4 and Generic x86_64 systems";
