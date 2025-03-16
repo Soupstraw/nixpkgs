@@ -5,12 +5,12 @@
   lib,
 }: buildKodiAddon rec {
   pname = "moonlight-qt";
-  namespace = "plugin.program";
+  namespace = "plugin.program.moonlight-qt";
   version = "0.4.6";
 
   src = fetchFromGitHub {
     owner = "veldenb";
-    repo = "${namespace}.${pname}";
+    repo = "${namespace}";
     rev = "v${version}";
     hash = "sha256-tv3dKZZsn+PtWK2FudZvYUOcWmA4FYc/+juulgsU5jg=";
   };
